@@ -13,6 +13,15 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
+      }
     }
   }
 
@@ -26,9 +35,9 @@
       align-items: center;
 
       h1 {
-        font-family: "Poppins", sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-size: 24px;
-        color: #292929;
+        color: #29292e;
       }
 
       span {
@@ -36,7 +45,7 @@
         background: #e559f9;
         border-radius: 9999px;
         padding: 8px 16px;
-        color: #fff;
+        color: #FFF;
         font-weight: 500;
         font-size: 14px;
       }
@@ -67,9 +76,9 @@
           img {
             width: 32px;
             height: 32px;
-            border-radius: 58%;
+            border-radius: 50%;
           }
-          
+
           span {
             margin-left: 8px;
             color: #29292e;
@@ -86,7 +95,7 @@
           button {
             background: transparent;
             border: 0;
-            color: #835afd;
+            color: #835AFD;
             text-decoration: underline;
             font-size: 14px;
             font-weight: 500;
@@ -94,6 +103,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
   }
 }
