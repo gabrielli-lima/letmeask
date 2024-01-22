@@ -1,15 +1,19 @@
-import copyImg from '../assets/images/copy.svg'
+import { toast } from 'react-toastify';
 
-import '../styles/room-code.scss'
+import copyImg from '../assets/images/copy.svg';
+import '../styles/room-code.scss';
+import 'react-toastify/dist/ReactToastify.css';
 
 type RoomCodeProps = {
     code: string;
 }
 
 export function RoomCode(props: RoomCodeProps) {
+    const notify = () => toast("Copiado!");
 
     function copyRoomCodeToClipboard() {
         navigator.clipboard.writeText(props.code);
+        notify();
     }
 
     return (

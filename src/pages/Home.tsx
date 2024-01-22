@@ -17,6 +17,8 @@ export function Home() {
     const { user, signInWithGoogle } = useAuth();
     const [roomCode, setRoomCode] = useState('');
 
+    const [entrarComoAdmin, setEntrarComoAdmin] = useState(false)
+
     async function handleCreateRoom() {
         if (!user) {
             await signInWithGoogle();
@@ -42,7 +44,11 @@ export function Home() {
             return;
         }
 
-        navigate(`/rooms/${roomCode}`);
+        if (entrarComoAdmin) {
+            navigate(`admin/rooms/${roomCode}`);
+        } else {
+            navigate(`/rooms/${roomCode}`);
+        }
     }
 
     return (
@@ -70,6 +76,9 @@ export function Home() {
                         />
                         <Button type="submit">
                             Entrar na sala
+                        </Button>
+                        <Button type="submit" onClick={() => setEntrarComoAdmin(true)}>
+                            Entrar na sala como administrador
                         </Button>
                     </form>
                 </div>
