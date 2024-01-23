@@ -19,8 +19,8 @@ Aplicação web para criadores de conteúdos poderem criar salas de perguntas e 
 <div align="center">
   <img width="350em" src="./.github/preview.png">
   <img width="350em" src="./.github/previewCriarSala.png">
-  <img width="450em" src="./.github/previewSalaAdmin.png">
-  <img width="450em" src="./.github/previewSala.png">
+  <img width="400em" src="./.github/previewSalaAdmin.png">
+  <img width="400em" src="./.github/previewSala.png">
 </div>
 
 > Projeto desenvolvido na missão ReactJS no NLW #06 da Rocketseat.
