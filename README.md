@@ -1,4 +1,4 @@
-# NLW ReactJS
+# Letmeask
 
 Aplicação web para criadores de conteúdos poderem criar salas de perguntas e respostas(Q&A) com o seu público, de uma forma organizada e simples.
 
