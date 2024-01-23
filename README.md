@@ -17,8 +17,8 @@ Aplicação web para criadores de conteúdos poderem criar salas de perguntas e 
 
 ## Preview
 <div align="center">
-  <img width="450em" src="./.github/preview.png">
-  <img width="450em" src="./.github/previewCriarSala.png">
+  <img width="350em" src="./.github/preview.png">
+  <img width="350em" src="./.github/previewCriarSala.png">
   <img width="450em" src="./.github/previewSalaAdmin.png">
   <img width="450em" src="./.github/previewSala.png">
 </div>
